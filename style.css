@@ -1,6 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navBar{
+
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
 }
+
+.title{
+    color: white;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.link{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 25px ;
+    width: 350px;
+    height: 30px;
+}
+
+.searchInput {
+    border: none;
+    height: 20px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchButton{
+    background-color: rgb(47, 159, 81);
+    color: white;
+    border: none;
+    width: 70px;
+    border-radius: 25px;
+    height: 20px;
+    
+}
+
+.searchButton:hover{
+    background-color: rgb(35, 122, 61);
+    text-decoration: underline;
+}
+
+.searchButton:active{
+    background-color: rgb(47, 159, 81);
+}
+
+.machu-picchu{
+    height: 596px;
+    opacity: 10%;
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+}
+
+.socialMedia{
+    height: 596px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 10px;
+    }
+
+.verticalLine {
+    background-color: white;
+    width: 5px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcon{
+    width: 30px;
+    margin-bottom: 15px;
+}
+
+.bodySection{
+    display: flex;
+}
+
+.homeTitle{
+    color: rgb(31, 31, 31);
+    font-size: 40px;
+}
+
+.homeText{
+    color: rgb(31, 31, 31);
+    font-size: 20px;
+    text-wrap: wrap;
+    width: 500px;
+    margin: 50px 0;
+}
+
+.homeSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 596px;
+    margin-left: 20px;
+}
+
+.homeButton{
+    background-color: rgb(222, 42, 42);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.homeButton:hover{
+    text-decoration: underline;
+    background-color: rgb(175, 42, 42)
+}
+
+.homeButton:active{
+    background-color: rgb(222, 42, 42)
+}
+
+.aboutUsText{
+width: 1000px;
+color: rgb(31, 31, 31);
+font-size: 20px;
+text-wrap: wrap;
+margin: 50px 0;
+}
+
+.ourTeamSection{
+    display: flex;
+    margin-left: 150px;
+
+}
+
+.accountPersonal{
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonPersonal{
+    background-color: rgb(222, 42, 42);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.buttonPersonal:hover{
+    text-decoration: underline;
+    background-color: rgb(175, 42, 42)
+}
+
+.buttonPersonal:active{
+    background-color: rgb(222, 42, 42)
+}
+
+.imageFontOurTeam{
+    width: 750px;
+    height: 145px;
+    background-color: black;
+    opacity: 10%;
+    position: absolute;
+    margin-left: 120px;
+    z-index: -5;
+}
+
+.contactUsSection{
+    display: flex;
+    height: 596px;
+    align-items: center;
+}
+
+.contactUsTitle{
+    margin:0 40px;
+    font-size: 80px;
+}
+
+.contactUsForm{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 5px;
+}
+
+.contactUsFormTextArea{
+    height: 280px;
+    width: 400px;
+    background-color: transparent;
+
+}
+
+.contactUsFormInput{
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+}
+
+.contactUsFormLabel{
+    color: rgb(65, 65, 65);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+

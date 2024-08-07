@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Travel Recommendation</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navBar">
-        <div>
-            <h1>Travel Recommendations</h1>
-        </div>
-        <div>
-            <h3><a href="#home">Home</a></h3>
-            <h3><a href="#about_us">About Us</a></h3>
-            <h3><a href="contac_us">Contact Us</a></h3>
-        </div>
-        <div>
-            <input type="text" placeholder="Search...">
-        </div>
+      <div>
+        <h1 class="title">Travel Recommendations</h1>
+      </div>
+      <div>
+        <ul class="links">
+          <li ><a id="home" class="link">Home</a></li>
+          <li ><a  id="about_us" class="link">About Us</a></li>
+          <li ><a  id="contact_us" class="link">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="searchDiv">
+        <input class="searchInput" type="text" placeholder="Search..." id="searchInput"/>
+        <button class="searchButton" type="button" id="searchButton">Search</button>
+        <button class="searchButton" type="submit">Clear</button>
+      </div>
     </nav>
-</body>
+    <section class="bodySection">
+        <img class="machu-picchu" src="./images/machu-picchu_5ff969ae_1280x720.jpg" alt="">
+        <div class="socialMedia">
+            <div class="verticalLine"></div>
+            <div class="socialIcons">
+                <a href="https://www.twitter.com"><img class="socialIcon" src="./images/twitter.png" alt=""></a>
+                <a href="https://www.facebook.com"><img class="socialIcon" src="./images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com"><img class="socialIcon" src="./images/instagram.png" alt=""></a>
+                <a href="https://www.youtube.com"><img class="socialIcon" src="./images/youtube.png" alt=""></a>
+            </div>
+        </div>
+        <div id="root"></div>
+    </section>
+  </body>
+  <script src="./travel_recommendation.js"></script>
+
 </html>
